@@ -69,6 +69,12 @@
 
       function removeElement () {
         $element.remove()
+        
+        if ($element.hasClass("flash")) {
+            $(".with-flashes").each(function(i, item) {
+               $(item).removeClass("with-flashes"); 
+            });
+        }
       }
 
       $.support.transition && $element.hasClass('fade') ?
