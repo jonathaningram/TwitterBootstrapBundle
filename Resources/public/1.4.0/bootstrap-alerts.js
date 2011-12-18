@@ -63,23 +63,21 @@
 
     close: function (e) {
       var $element = $(this).parent('.alert-message')
+      
+      $element.trigger('close')
 
       e && e.preventDefault()
       $element.removeClass('in')
 
       function removeElement () {
         $element.remove()
-        
-        if ($element.hasClass("flash")) {
-            $(".with-flashes").each(function(i, item) {
-               $(item).removeClass("with-flashes"); 
-            });
-        }
       }
 
       $.support.transition && $element.hasClass('fade') ?
         $element.bind(transitionEnd, removeElement) :
         removeElement()
+        
+      $element.trigger('closed')
     }
 
   }
