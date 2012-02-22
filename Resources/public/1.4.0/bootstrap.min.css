@@ -188,6 +188,7 @@ table{width:100%;margin-bottom:18px;padding:0;font-size:13px;border-collapse:col
 table th{padding-top:9px;font-weight:bold;vertical-align:middle;}
 table td{vertical-align:top;border-top:1px solid #ddd;}
 table tbody th{border-top:1px solid #ddd;vertical-align:top;}
+.condensed-table th,.condensed-table td{padding:5px 5px 4px;}
 .bordered-table{border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}.bordered-table th+th,.bordered-table td+td,.bordered-table th+td{border-left:1px solid #ddd;}
 .bordered-table thead tr:first-child th:first-child,.bordered-table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0;}
 .bordered-table thead tr:first-child th:last-child,.bordered-table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0;}
@@ -262,7 +263,7 @@ a.menu:after,.dropdown-toggle:after{width:0;height:0;display:inline-block;conten
 .btn-dropdown .dropdown-toggle:after{margin-top:6px;margin-left:6px;border-top-color:#999;filter:alpha(opacity=80);-khtml-opacity:0.8;-moz-opacity:0.8;opacity:0.8;}
 .btn-dropdown .small.dropdown-toggle:after{margin-top:4px;}
 .btn-dropdown .danger.dropdown-toggle:after,.btn-dropdown .info.dropdown-toggle:after,.btn-dropdown .primary.dropdown-toggle:after,.btn-dropdown .success.dropdown-toggle:after{border-top-color:#ffffff;}
-.btn-dropdown.open .dropdown-toggle{-webkit-box-shadow:inset 0 2px 4px rgba(0, 0, 0, 0.25),0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 2px 4px rgba(0, 0, 0, 0.25),0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:inset 0 2px 4px rgba(0, 0, 0, 0.25),0 1px 2px rgba(0, 0, 0, 0.05);background-position:0 -15px;}
+.btn-dropdown.open .dropdown-toggle{text-shadow:none;-webkit-box-shadow:inset 0 2px 4px rgba(0, 0, 0, 0.25),0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 2px 4px rgba(0, 0, 0, 0.25),0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:inset 0 2px 4px rgba(0, 0, 0, 0.25),0 1px 2px rgba(0, 0, 0, 0.05);background-position:0 -15px;}
 .btn-dropdown .dropdown-menu{top:29px;*top:30px;border-width:1px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
 .btn-dropdown .large+.dropdown-menu{top:38px;}
 .btn-dropdown .small+.dropdown-menu{top:30px;*top:31px;}
